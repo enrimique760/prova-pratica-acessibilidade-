@@ -1,0 +1,169 @@
+
+
+html, body {
+    margin: 0;
+    padding: 0;
+  }
+
+  /*fundo do site*/
+  html {
+    font-size: 10px;
+    background-color: #ffffff;
+  }
+  /*fundo do site*/
+
+  html
+  body {
+    width: 70%;
+    margin: 0 auto;
+  }
+  
+  
+  /*titulo do menu da direita*/
+  h1, h2 {
+    font-family:  cursive;
+    color: #0c54db;
+  }
+  /*titulo do menu da direita*/
+
+  p, li {
+    font-family: arial;
+    color: #0f0d0d;
+  }
+  
+  h1 {
+    font-size: 4rem;
+    text-align: center;
+    color: rgb(15, 146, 221);
+    font-family:  arial;
+  }
+  
+  h2 {
+    font-size: 3rem;
+    text-align: center;
+  }
+  
+  h3 {
+    font-size: 2.2rem;
+    color: #06070a9d;
+  }
+  
+  p {
+    font-family:  cursive; 
+  }
+  
+  /* || header layout */
+  
+  nav, article, aside, footer {
+    background-color: none;
+    padding: 1%;
+  }
+
+
+  /*cabecalho*/
+  nav {
+    height: 50px;
+    background-color: #106feb;
+    display: flex;
+    margin-bottom: 10px;
+  }
+  /*cabecalho*/
+  
+  nav ul {
+    padding: 0;
+    list-style-type: none;
+    flex: 2;
+    display: flex;
+  }
+  
+  nav li {
+    display: inline;
+    text-align: center;
+    flex: 1;
+  }
+  
+  nav a {
+    display: inline-block;
+    font-size: 2rem;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: rgb(7, 6, 6);
+  }
+  
+  
+ 
+  /* || main layout */
+  
+  main {
+    display: flex;
+  }
+  
+  article {
+    flex: 4;
+  }
+  
+  /* menu da direita */
+  aside {
+    flex: 1;
+    margin-left: 10px;
+    background-color: #0049e7;
+  }
+   /* menu da direita */
+
+  aside li {
+    padding-bottom: 10px;
+  }
+  
+  footer {
+    margin-top: 10px;
+  }
+  .sidebar {
+	background-color: #86baeb;
+	height: 100%;
+	position: fixed;
+	left: 0;
+	top: 0;
+	width: 200px;
+	color: #fff;
+  padding: 1px
+}
+.sidebar ul {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+.sidebar li {
+	padding: 10px;
+}
+.sidebar li:hover {
+	background-color: #000000;
+}
+.sidebar a {
+	color: #fcf5f5;
+	text-decoration: none;
+}
+.botao-fixado {
+
+    position: fixed;
+    
+    bottom: 20px;
+    
+    left: 20px;
+    
+    }
+    .dark-mode {
+      background-color: black;
+      color:white;
+      
+  }
+  
+  body {
+    padding:25px;
+    background-color: none ;
+    color: rgb(33, 136, 204);
+    font-size: 25px;
+  }
+  img{
+    width: 100px;
+  }
+ 

@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="utf-8">
+
+    <title>prova pratica acessibilidade digital</title>
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300|Sonsie+One" rel="stylesheet"type="text/css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body class="supernova">
+
+    <header>
+        <h1>acessibilidade digital </h2>
+
+
+    </header>
+
+
+    <nav>
+        <ul>
+            <li><a href="home.html">Home</a></li>
+            <li><a href="informações.html">informações</a></li>
+        </ul>
+    </nav>
+
+
+    <main>
+
+        <article>
+            <h2>O que é a acessibilidade digital? </h2>
+            <button id="toggle-theme">Alternar tema</button>
+            <br>
+            <br>
+
+            <img src="acessibilidade.png" width="150" height="120"> <img src="visao (1).png" width="150" height="120">
+            <img src="cego.png" width="150" height="120"> <img src="linguagem-de-sinais (1).png" width="150"
+                height="120">
+            <br>
+            <br>
+            <br>
+            <h3>A Acessibilidade Digital é a melhoria do design da usabilidade dos websites, através de técnicas e
+                ferramentas que melhorem a experiência de usuários com necessidades especiais. Assim, reduz as barreiras
+                e permite que pessoas com diferentes tipos de deficiência consigam acessar sozinhas websites e
+                informações disponíveis na internet. Sem a acessibilidade, os usuários perdem autonomia e precisam
+                contar com a ajuda de terceiros para executar tarefas simples e essenciais.</h3>
+            <br>
+            <hr>
+            <h3>Quais são os tipos de acessibilidade digital?</h3>
+            <br>
+            <h3>
+                <li>Leitores de tela para pessoas cegas</li>
+                <li>Ampliação de tela e alto contraste para pessoas com baixa visão</li>
+                <li>Mouses e teclados adaptados para pessoas com deficiência física</li>
+                <li>Tradutores de Língua Portuguesa para Libras para pessoas surdas, etc</li>
+            </h3>
+
+
+            <aside class="sidebar">
+                <h2>sobre acessibilidade</h2>
+
+                <ul>
+                    <li><a href="qual a importancia da ace.html">Qual a importância da acessibilidade digital?</a></li>
+                    <li><a href="Quais são os tipos de acessibilidade digital.html">Quais são os tipos de acessibilidade
+                            digital?</a></li>
+
+                </ul>
+            </aside>
+
+    </main>
+
+
+    <footer>
+        <p>©desenvolvido por Enrico miqueias instagram @enrico.mique7</p>
+    </footer>
+
+
+    <div vw class="enabled">
+        <div vw-access-button class="active"></div>
+        <div vw-plugin-wrapper>
+            <div class="vw-plugin-top-wrapper"></div>
+        </div>
+    </div>
+    <script src="https://vlibras.gov.br/app/vlibras-plugin.js"></script>;
+    <script>
+        new window.VLibras.Widget('https://vlibras.gov.br/app')
+    </script>
+    <script>
+       let minhaImagem = document.querySelector('img');
+        function darkMode() {
+          var element = document.body;
+          var content = document.getElementById("DarkModetext");
+          element.className = "dark-mode";
+          content.innerText = "o modo escuro está ativado";
+          let meuScr = minhaImagem.getAttribute('src');
+          minhaImagem.setAttribute ('src','https://cdn-icons-png.flaticon.com/512/5262/5262027.png');
+        }
+        function lightMode(){
+            var element = document.body;
+            var content = document.getElementById("DarkModetext");
+            element.className = "light-mode";
+            content.innerText = "o modo escuro está desativado";
+            let meuScr = minhaImagem.getAttribute('src');
+            minhaImagem.setAttribute ('src','https://cdn-icons-png.flaticon.com/512/5558/5558226.png');
+        }
+    </script>
+</body>
+
+</html>
